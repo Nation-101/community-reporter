@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+
+@theme {
+  /* ─── Backgrounds ─── */
+  --color-app-bg-start: #F5F7FA;
+  --color-app-bg-end: #E8ECF1;
+  
+  /* ─── Category Card Gradients ─── */
+  --color-water-start: #1565C0;
+  --color-water-end: #0D47A1;
+  --color-pothole-start: #EF6C00;
+  --color-pothole-end: #BF360C;
+  --color-dumping-start: #6D4C41;
+  --color-dumping-end: #3E2723;
+  --color-streetlight-start: #4A148C;
+  --color-streetlight-end: #311B92;
+  --color-traffic-start: #C62828;
+  --color-traffic-end: #8E0000;
+  --color-road-start: #546E7A;
+  --color-road-end: #263238;
+  --color-vegetation-start: #558B2F;
+  --color-vegetation-end: #1B5E20;
+  --color-other-start: #00695C;
+  --color-other-end: #00332A;
+
+  /* ─── Status Colors ─── */
+  --color-status-reported: #F9A825;
+  --color-status-acknowledged: #1565C0;
+  --color-status-dispatched: #6A1B9A;
+  --color-status-resolved: #2E7D32;
+
+  /* ─── Surface Colors ─── */
+  --color-surface: #FFFFFF;
+  --color-surface-hover: #F8F9FA;
+  --color-overlay: rgba(0, 0, 0, 0.5);
+
+  /* ─── Text Colors ─── */
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: rgba(0, 0, 0, 0.6);
+  --color-text-on-dark: #FFFFFF;
+  --color-text-muted: rgba(255, 255, 255, 0.7);
+}
